@@ -3,7 +3,7 @@
 ## About Dataset
 Dataset can be obtained from kaggle [click here](https://www.kaggle.com/grassknoted/asl-alphabet)
 
-### modules required are:
+### Requirements:
 
  ```shell
  pip install keras
