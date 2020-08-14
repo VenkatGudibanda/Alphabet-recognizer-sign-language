@@ -3,7 +3,7 @@
 
 import os
 os.mkdir('dataset')
-
+# this is relevent if you do the implementation using your google drive 
 !unzip -o '/content/drive/My Drive/asl_alphabet.zip.zip' -d dataset
 
 from keras.models import Sequential
