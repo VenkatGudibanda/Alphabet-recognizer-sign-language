@@ -23,6 +23,7 @@ classifier.add(MaxPooling2D(pool_size = (2, 2)))
 
 # Adding a second convolutional layer
 classifier.add(Conv2D(128, (3, 3), activation = 'relu'))
+classifier.add(Dropout(rate = 0.1))
 classifier.add(MaxPooling2D(pool_size = (2, 2)))
 classifier.add(Conv2D(64,(3,3),activation='relu'))
 classifier.add(Dropout(rate=0.1))
