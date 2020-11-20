@@ -86,7 +86,7 @@ img_array = tf.expand_dims(img_array, 0)
 predictions = classifier.predict(img_array)
 score = predictions[0]
 pred = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-for i in range(29):
+for i in range(26):
   if score[i] == 1:
     print("Model prediction of the image is:{}".format(pred[i]))
     break
